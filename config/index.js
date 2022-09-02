@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "525fd8eb9e45dde3d16c7c2e58cce924",
 
     // 模板消息id
-    TEMPLATE_ID: "59sHvm4IvygSTu2JKYhDgT4gxWnzc36BmknADPo1wC0",
+    TEMPLATE_ID: "R2U_kk50mcxbqgRlRHUv38z2wh0bgVJsl7PK5fT1xS4",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -53,8 +53,6 @@ export const config = {
     FESTIVALS: [
       {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
       {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     ],
 
     /**
@@ -74,7 +72,7 @@ export const config = {
       // 在一起的日子
       {"keyword": "love_day", date: "2015-05-01"},
       // 结婚纪念日
-      // {"keyword": "marry_day", date: "2020-01-04"},
+      {"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
       // {"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
@@ -108,6 +106,10 @@ export const config = {
 
 
     }
+
+
+
+    
 
 // {{date.DATA}}  
 // 城市：{{city.DATA}}  
